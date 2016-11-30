@@ -4,22 +4,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.icon-container{
-	width: 150px;
-	height: 150px;
-	margin: 0 auto;
-	line-height: 150px;
-	font-size: 60px;
-	box-shadow: -2px 2px 10px rgba(255,0,0, 0.3);
-	border-radius: 200px;
-	color: skyblue;
-}
+
 header{
 	background: url(../image/large.jpg) no-repeat;
     background-size: cover;
-    opacity: 1;
     height: 600px;
     color: white;
+}
+.fondo {
+	background-color: rgba(17, 17, 17, 0.6);
+	height: 600px;
 }
 header nav, img{
 	margin-top: 30px;
@@ -33,24 +27,98 @@ header nav li a{
 header nav li{
 	margin-left: 20px;
 }
-header .frase {
-    height: 350px;
-    display: table;
+header .frase{
+	height: 417px;
+	width: 100%;
+	display: table;
 }
-header .frase h1 {
-    margin: 0;
-    display: table-cell;
-    vertical-align: middle;
+.frase
+{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 50px;
+}
+.header-banner{
+	background-color:rgba(17, 158, 201, 0.64);
+	margin: 0 auto;
+	line-height: 50px;
+}
+.header-banner button{
+	border:1px solid white;
+	margin: 0 auto;
+}
+.servicios h2{
+	color: lightblue;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.servicios h3{
+	color: rgba(63, 127, 191, 0.96);
+}
+.icon-container{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 60px;
+	box-shadow: -2px 2px 10px rgba(2, 18, 23, 0.76);
+	border-radius: 200px;
+	color: skyblue;
+}
+.flecha1{
+	margin-left:50% ;
+}
+h6{
+	color:rgba(17, 158, 201, 0.64);
+}
+.list-icons li i{
+	width: 200px;
+	height:200px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 10px;
+	border-radius: 200px;
+	color: skyblue;
+}
+footer .banner{
+	background-color:rgba(17, 158, 201, 0.64); 
 }
 
-
+footer h3{
+	color: white;
+}
+footer .col-sm-9 p{
+	color: white;
+}
+footer button{
+	margin-top: 30px;
+}
+footer p{
+	color: rgba(1, 5, 8, 0.86);
+}
 /*Contact*/
-.contacto-general{
-	background-image: url(image/large.jpg);
+.contact-fondo{
+	background-image: url(../image/large.jpg);
+	background-size: cover;
+	height: 600px
+}
+header .frase{
+	height: 417px;
+	width: 100%;
+	display: table;
+}
+.frase
+{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 50px;
+}
+.contact-fondo{
+	border-bottom: 3px solid black;
 }
 .formulario-contacto{
 	outline: 1px solid rgba(0,255,0,0.3);
-	border-top: 3px sold blue;	
+	border-top: 3px solid blue;	
 }
 form .enviar{
 	width: 600px;
@@ -61,6 +129,3 @@ form .enviar{
 	color: white;
 }
 
-footer .contact p{
-	margin:5px 20px;
-}
