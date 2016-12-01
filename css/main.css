@@ -1,42 +1,41 @@
 *{
-
+	outline: 1px solid rgba(255,0,0,0.3);
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
+body{
+	font-family: Lato;
+}
+/*---------------Header------------*/
 
 header{
 	background: url(../image/large.jpg) no-repeat;
     background-size: cover;
-    height: 600px;
     color: white;
 }
 .fondo {
 	background-color: rgba(17, 17, 17, 0.6);
-	height: 600px;
 }
+
 header nav, img{
 	margin-top: 30px;
 }
 header img{
 	height: 15px;
 }
-header nav li a{
-	color: white;
-}
+
 header nav li{
 	margin-left: 20px;
 }
+header nav li a{
+	color: white;
+}
 header .frase{
-	height: 417px;
 	width: 100%;
 	display: table;
 }
-.frase
-{
-	display: table-cell;
-	vertical-align: middle;
-	line-height: 50px;
+.frase{
+	margin: 120px 0;
 }
 .header-banner{
 	background-color:rgba(17, 158, 201, 0.64);
@@ -45,7 +44,7 @@ header .frase{
 }
 .header-banner button{
 	border:1px solid white;
-	margin: 0 auto;
+	margin: 40px 0;
 }
 .servicios h2{
 	color: lightblue;
