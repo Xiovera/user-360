@@ -37,28 +37,21 @@ header a:hover, a:focus{
 	list-style: none;
 	margin-left: -80%;
 }
-/*header img{
-	height: 15px;
-}
-
-header nav li{
-	margin-left: 20px;
-}
-header nav li a{
-	color: white;
-}
-header .frase{
-	width: 100%;
-	display: table;
-}
 .frase{
-	margin: 120px 0;
+	margin: 50px 0;
 }
 .header-banner{
 	background-color:rgba(17, 158, 201, 0.64);
-	margin: 0 auto;
-	line-height: 50px;
 }
+.header-banner h3{
+	margin-top: -10px;
+}
+.header-banner button{
+	margin:10px 0;
+}
+/*display: table;
+}
+
 .header-banner button{
 	border:1px solid white;
 	margin: 40px 0;
@@ -111,8 +104,11 @@ footer button{
 }
 footer p{
 	color: rgba(1, 5, 8, 0.86);
-}
+}*/
+
+
 /*Contact*/
+/*
 .contact-fondo{
 	background-image: url(../image/large.jpg);
 	background-size: cover;
