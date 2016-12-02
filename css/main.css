@@ -1,5 +1,4 @@
 *{
-	outline: 1px solid rgba(255,0,0,0.3);
 	margin: 0;
 	padding: 0;
 }
@@ -38,7 +37,7 @@ header a:hover, a:focus{
 	margin-left: -80%;
 }
 .frase{
-	margin: 50px 0;
+	margin: 130px 0;
 }
 .header-banner{
 	background-color:rgba(17, 158, 201, 0.64);
@@ -77,6 +76,7 @@ header a:hover, a:focus{
 .separador{
 	border-top: 1px solid #CCC;
 	text-align: center;
+	z-index: 1;
 }
 .separador img{
 	position: absolute;
@@ -95,7 +95,7 @@ header a:hover, a:focus{
 }
 /*Pasos*/
 .pasos{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .pasos h3,h4{
 	color: skyblue;
@@ -127,6 +127,7 @@ header a:hover, a:focus{
 .separador{
 	border-top: 1px solid #CCC;
 	text-align: center;
+	z-index: 1;
 }
 .separador img{
 	position: absolute;
@@ -167,36 +168,28 @@ footer p{
 }
 
 /*Contact*/
-/*
 .contact-fondo{
-	background-image: url(../image/large.jpg);
+	background: url(../image/large.jpg) no-repeat;
 	background-size: cover;
-	height: 600px
+	outline: 1px solid red;
+	height: 550px;
+	margin: 0;
 }
-header .frase{
-	height: 417px;
-	width: 100%;
-	display: table;
+.caja-formulario .rojito{
+	margin: 60px 40px;
+	color: red;
 }
-.frase
-{
-	display: table-cell;
-	vertical-align: middle;
-	line-height: 50px;
+.caja-formulario .row{
+	border-top: 4px solid blue;
+	background-color: white;
+	margin:30px;
 }
-.contact-fondo{
-	border-bottom: 3px solid black;
+.caja-formulario h3{
+	margin:8px 70px;
+	border-bottom: 1px solid black;
 }
-.formulario-contacto{
-	outline: 1px solid rgba(0,255,0,0.3);
-	border-top: 3px solid blue;	
+.caja-formulario form button{
+	margin: 5px;
 }
-form .enviar{
-	width: 600px;
-	height: 600px;
-	margin: 0 auto;
-	line-height: 600px;
-	font-size: 16px;
-	color: white;
-}*/
+
 
