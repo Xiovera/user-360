@@ -3,11 +3,13 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	font-family: Lato;
+body h1,h2,h3,h4,h5{
+	font-family: 'Fredoka One', cursive;
+}
+p,li,a, small{
+	font-family: 'Comfortaa', cursive;
 }
 /*---------------Header------------*/
-
 header{
 	background: url(../image/large.jpg) no-repeat;
     background-size: cover;
@@ -16,11 +18,26 @@ header{
 .fondo {
 	background-color: rgba(17, 17, 17, 0.6);
 }
-
-header nav, img{
-	margin-top: 30px;
+header .row{
+	margin-top: 20px;
 }
-header img{
+
+header a{
+	color: white;
+	display: block;
+	padding: 12px 12px;
+	transition: all 0.3s;
+}
+header a:hover, a:focus{
+	text-decoration: none;
+	outline: none;
+	background: white;
+}
+.menu-mobile li{
+	list-style: none;
+	margin-left: -80%;
+}
+/*header img{
 	height: 15px;
 }
 
@@ -126,5 +143,5 @@ form .enviar{
 	line-height: 600px;
 	font-size: 16px;
 	color: white;
-}
+}*/
 

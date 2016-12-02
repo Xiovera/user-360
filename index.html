@@ -18,24 +18,26 @@
 	  	<!--Scrpit-->
 	  	<script src="js/jquery.js"></script>
 	  	<script src="js/bootstrap.min.js"></script>
+	  	<!--Fonts-->
+	  	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 		<div class="fondo">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-2 col-xs-6">
+					<div class="col-md-3 col-sm-12 col-xs-6">
 						<img class="img-responsive" src="image/user-r.png" alt="">
 					</div>	
-					<div class="col-md-9 col-sm-10 col-xs-6">
-						<div>
+					<div class="col-md-9 col-sm-12 col-xs-6">
+						<div class="text-right visible-xs">
 							<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#main-navigation">Menú</button>
 						</div>						
 						<nav class="hidden-xs">
-							<ul class="list-inline text-right text-unstyle">
-								<li><a href="#">¿Qué me ofrece?</a></li>
-								<li><a href="#">¿Cómo funciona?</a></li>
-								<li><a href="#">¿Porqué usarlo?</a></li>
+							<ul class="menu-pantalla list-inline text-right text-unstyle ">
+								<li><a href="#ofrece">¿Qué me ofrece?</a></li>
+								<li><a href="#funciona">¿Cómo funciona?</a></li>
+								<li><a href="#usarlo">¿Porqué usarlo?</a></li>
 								<li><a href="contact.html">Contáctanos</a></li>
 							</ul>
 						</nav>			
@@ -43,52 +45,52 @@
 				</div>
 				<nav class="visible-xs">
 					<div id="main-navigation" class="collapse">	
-						<ul class="list-inline text-right text-unstyle">
-							<li><a href="#">¿Qué me ofrece?</a></li>
-							<li><a href="#">¿Cómo funciona?</a></li>
-							<li><a href="#">¿Porqué usarlo?</a></li>
+						<ul class="menu-mobile text-right text-unstyle">
+							<li><a href="#ofrece">¿Qué me ofrece?</a></li>
+							<li><a href="#funciona">¿Cómo funciona?</a></li>
+							<li><a href="#usarlo">¿Porqué usarlo?</a></li>
 							<li><a href="contact.html">Contáctanos</a></li>
 						</ul>
 					</div>
 				</nav>								
 				<div class="frase">
-					<h2 class="text-center">Obtén videos de personas reales <br> utilizando tu sitio web en 1 hora.</h2>
+					<h1 class=" option animated  pulse text-center">Obtén videos de personas reales <br> utilizando tu sitio web en 1 hora.</h1>
 				</div>				
 			</div>
 			<div class="header-banner">
 				<div class="container">
 					<div class="row">
-						<div class=" text-center col-md-4 col-md-offset-2">
-							<h3 class="text-center">PRUEBA GRATUITA</h3>
+						<div class=" text-center banner-info col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2">
+							<h3 class="  text-center">PRUEBA GRATUITA</h3>
 							<small>Obtén un video gratis en 5 minutos</small>
 						</div>
-						<div class="col-md-4 text-center">
-							<button class="btn btn-primary">Pruébalo gratis</button>
+						<div class="col-md-4 text-center col-sm-4">
+							<button class=" option animated bounceInLeft btn btn-primary ">Pruébalo gratis</button>
 						</div>						
 					</div>					
 				</div>				
 			</div>
 		</div>
 		</header>
-		<section class="servicios">
+		<section class="servicios" id="ofrece">
 			<div class="container">
 				<h3 class="text-center">Nuestros Servicios</h3>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="icon-container">
 							<i class="icon-video"></i>							
 						</div>
 						<h3 class="text-center">Pruebalo <br> gratis</h3>
 						<p class="text-center">Obtén un primer video screencast de un usuario navegando tu página.</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="icon-container">
 							<i class="icon-clock"></i>							
 						</div>
 						<h3 class="text-center">Compra el <br>servicio completo</h3>
 						<p class="text-center">Si te gustó, compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="icon-container">
 							<i class="icon-document"></i>							
 						</div>
@@ -99,15 +101,14 @@
 			</div>			
 		</section>
 		<!-----------end servicios section------>
-		<div class="img-responsive">
-		<img class="flecha1" src="image/separador.png" alt="">
+		<div class="separador img-responsive">
+			<img src="image/separador.png" alt="">
 		</div>
-		<section class="ejemplo">
-			<div class="container">
-				
+		<section class="ejemplo" id="funciona">
+			<div class="container">				
 				<div class="row">
 					<div class="col-md-6">
-						<h4>Ejemplo de <img src="image/logo-2.jpg" alt="" width="250px"></h4>  
+						<h3>Ejemplo de <img src="image/logo-2.jpg" alt="" width="250px"></h3>  
 						<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de uso de</p>
 	                    <small><a href="">mimediamanzana.com</a></small>
 	                    <p>El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
@@ -122,25 +123,34 @@
 			</div>			
 		</section>
 		<!-----------end ejemplos section------>
-		<section class="pasos">
+		<section class="pasos" >
 			<div class="container">        
 	            <div class="row">
                     <div class="col-md-6 text-left">
-                    	<img class="img-responsive" src="image/sec-2.jpg" alt="#">	                        
+                    	<img class="img-responsive" src="image/sec-2.jpg" alt="">             
                     </div>
-	                <div class="col-md-6 text-left">
-	                    <h4 class="text-center">Lo quiero ¿Qué hago?</h4>
-	                    <h6>Paso 1: envianos tu link</h6>
-	                    <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
-	                    <h6>Paso 2: describe a tu público objetivo</h6>
-	                    <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
-	                    <ul class="list-steps">
-	                        <li>A primera vista, ¿de qué crees que trata la página?</li>
-	                        <li>Busca el botón de inscribirte o comprar</li>
-	                        <li>¿Es fácil o difícil leer los textos?</li>
-	                    </ul>
-	                    <h6>Paso 3: recibe un video y el feedback completo</h6>
-	                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+	                <div id="usarlo" class="col-md-6 text-left pasos-info">
+	                    <h3 class="text-center">Lo quiero ¿Qué hago?</h3>
+	                    <div class="paso1">
+	                    	<span class="icono-azul"><i class="icon-pencil"></i></span>
+	                    	<h4>Paso 1: envíanos tu link</h4>
+	                    	<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+	                    </div>
+	                    <div class="paso2">
+	                    	<span class="icono-azul"><i class="icon-clock"></i></span>
+		                    <h4>Paso 2: describe a tu público objetivo</h4>
+		                    <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+		                    <ul class="lista-pasos text-unstyle">
+		                        <li>A primera vista, ¿de qué crees que trata la página?</li>
+		                        <li>Busca el botón de inscribirte o comprar</li>
+		                        <li>¿Es fácil o difícil leer los textos?</li>
+		                    </ul>	                    	
+	                    </div>
+	                    <div class="paso3">
+	                    	<span class="icono-azul"><i class="icon-documents"></i></span>
+		                    <h4>Paso 3: recibe un video y el feedback completo</h4>
+		                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+	                    </div>
 	                </div>
 	            </div>
 	        </div>			
